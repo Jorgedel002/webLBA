@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+body{
+    
+}
+.container{
+    display: flex;
+    flex-flow: column;
+}
+.container .foto{
+    width: 70%;
+    background-color: blue;
+}
+.container .foto img{
+    width: 100%;
+}
+
+.Titles{
+    display: block;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4rem;
+    color: crimson;
+    font-family: 'Kaushan Script', cursive;
+    margin-right: 230px;
+
+}
+.container .box-1{
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+}
+.Principal-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.Principal-form{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+[class$=Place]{
+    border: none;
+    border-bottom: 1px solid rgb(65, 64, 64);
+    font-size: 20px;
+    padding-bottom: 10px;
+    outline: none;
+}
+[class$=Place]::placeholder{
+    color: rgb(32, 32, 32);
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+}
+.Enviar-form__Place{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(165, 0, 33);
+    color: wheat;
+    border-radius: 10px;
+    margin-left: 30px;
+}

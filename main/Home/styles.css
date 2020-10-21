@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+.master{
+    width: 100%;
+}
+.Head{
+    display: flex;
+}
+.Logo{
+    height: 180px;
+    display: flex;
+    position: relative;
+    right: 1580px;
+    border-radius: 100%;
+    bottom: 30px;
+}
+header{
+    width: 100%;
+    display: flex;
+}
+.Title{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(231, 31, 231);
+    font-size: 4rem;
+    width: 90%;
+}
+.Options{
+    position: relative;
+    text-align: center;
+    font-size: 1.3rem;
+}
+[class^="OP"]{
+    text-decoration: none;
+    margin-right: 150px;
+    color:  rgb(231, 31, 231) ;
+}
+[class^="OP"]:hover{
+    transition-duration: .5s;
+    font-size: 1.4rem;
+    color:  rgb(199, 27, 199);
+}
+.Icons{
+    display: flex;
+    flex-flow: row;
+    margin-top: 45px;
+    justify-content: space-around;
+    font-size: 35px;
+    width: 10%;
+}
+[class^="IC"]{
+    margin-right: 20px;
+    color: grey;
+}
+[class^="Color"]{
+    color: rgb(43, 43, 43);
+}
+.Destacados{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+[class^="Product"]{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: gray;
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+}
